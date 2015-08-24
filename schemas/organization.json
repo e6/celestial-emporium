@@ -1,6 +1,6 @@
 {
-  "$schema": "http://json-schema.org/draft-03/schema#",
-  "id": "http://www.popoloproject.com/schemas/organization.json#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://emporium.pudo.org/schemas/organization.json#",
   "title": "Organization",
   "description": "A group with a common purpose or reason for existence that goes beyond the set of people belonging to it",
   "type": "object",

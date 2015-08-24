@@ -1,5 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://emporium.pudo.org/schemas/address.json#",
+  "title": "Address",
   "oneOf": [
     {
       "type": ["string", "null"],

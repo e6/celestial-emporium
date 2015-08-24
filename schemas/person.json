@@ -1,6 +1,6 @@
 {
-  "$schema": "http://json-schema.org/draft-03/schema#",
-  "id": "http://www.popoloproject.com/schemas/person.json#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://emporium.pudo.org/schemas/person.json#",
   "title": "Person",
   "description": "A real person, alive or dead",
   "type": "object",

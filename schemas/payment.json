@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://emporium.pudo.org/schemas/payment.json#",
   "description": "A Financial-Payment is a payment from government to a recipient",
   "type": "object",
   "properties": {

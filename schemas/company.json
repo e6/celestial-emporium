@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://emporium.pudo.org/schemas/company.json#",
   "description": "A company in OpenCorporates",
   "type": "object",
   "properties": {
