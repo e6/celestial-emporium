@@ -1,9 +1,6 @@
-[submodule "sources/openc-schema"]
-	path = sources/openc-schema
-	url = git@github.com:openc/openc-schema.git
 [submodule "sources/opencorporates"]
 	path = sources/opencorporates
-	url = git@github.com:openc/openc-schema.git
+  url = https://github.com/openc/openc-schema
 [submodule "sources/popolo"]
 	path = sources/popolo
 	url = https://github.com/popolo-project/popolo-spec
