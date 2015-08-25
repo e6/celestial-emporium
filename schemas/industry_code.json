@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://emporium.pudo.org/schemas/industry_code.json#",
+  "id": "industry_code.json#",
   "title": "Industry code",
   "description": "An industry code from a standard code list (e.g. NAICS 2007 or NACE 2)",
   "type": "object",

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://emporium.pudo.org/schemas/entity.json#",
+  "id": "entity.json#",
   "type": "object",
   "required": ["entity_type", "entity_properties"],
   "oneOf": [

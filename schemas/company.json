@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://emporium.pudo.org/schemas/company.json#",
+  "id": "company.json#",
   "description": "A company in OpenCorporates",
   "type": "object",
   "properties": {
@@ -54,18 +54,18 @@
       "minLength": 4
     },
     "registered_address": {
-      "$ref": "includes/address.json"
+      "$ref": "address.json"
     },
     "headquarters_address": {
-      "$ref": "includes/address.json"
+      "$ref": "address.json"
     },
     "mailing_address": {
-      "$ref": "includes/address.json"
+      "$ref": "address.json"
     },
     "officers": {
       "type": "array",
       "items": {
-        "$ref": "includes/officer.json"
+        "$ref": "officer.json"
       }
     },
     "share_parcels": {
@@ -80,19 +80,19 @@
     "filings": {
       "type": "array",
       "items": {
-        "$ref": "includes/filing.json"
+        "$ref": "filing.json"
       }
     },
     "identifiers": {
       "type": "array",
       "items": {
-        "$ref": "includes/identifier.json"
+        "$ref": "identifier.json"
       }
     },
     "industry_codes": {
       "type": "array",
       "items": {
-        "$ref": "includes/industry_code.json"
+        "$ref": "industry_code.json"
       }
     },
     "previous_names": {
@@ -159,9 +159,7 @@
           "description": "Information on the merger of this company into a 'survivor' company",
           "properties": {
             "surviving_company": {
-              "type": [
-                "object"
-              ],
+              "type": ["object"],
               "description": "the surviving_company that this has been merged into",
               "properties": {
                 "name": {
@@ -182,14 +180,10 @@
               },
               "anyOf": [
                 {
-                  "required": [
-                    "name"
-                  ]
+                  "required": ["name"]
                 },
                 {
-                  "required": [
-                    "company_number"
-                  ]
+                  "required": ["company_number"]
                 }
               ]
             },
@@ -200,9 +194,7 @@
             }
           },
           "additionalProperties": false,
-          "required": [
-            "surviving_company"
-          ]
+          "required": ["surviving_company"]
         }
       }
     }

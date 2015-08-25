@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://emporium.pudo.org/schemas/filing.json#",
+  "id": "filing.json#",
   "title": "Filing",
   "description": "A statutory filing",
   "type": "object",

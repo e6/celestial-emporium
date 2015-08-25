@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://emporium.pudo.org/schemas/membership.json#",
+  "id": "membership.json#",
   "title": "Membership",
   "description": "A relationship between a member and an organization",
   "type": "object",

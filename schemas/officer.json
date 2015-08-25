@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://emporium.pudo.org/schemas/officer.json#",
+  "id": "officer.json#",
   "title": "Officer",
   "description": "An officer (director, senior executive) of a company",
   "type": "object",
@@ -69,7 +69,5 @@
       }
     }
   },
-  "required": [
-    "name"
-  ]
+  "required": ["name"]
 }

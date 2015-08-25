@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://emporium.pudo.org/schemas/link.json#",
+  "id": "link.json#",
   "title": "Link",
   "description": "A URL",
   "type": "object",
