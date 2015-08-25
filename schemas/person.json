@@ -4,28 +4,13 @@
   "title": "Person",
   "description": "A real person, alive or dead",
   "type": "object",
+  "oneOf": [
+      {"$ref": "actor.json#"}
+  ],
   "properties": {
     "id": {
       "description": "The person's unique identifier",
       "type": ["string", "null"]
-    },
-    "name": {
-      "description": "A person's preferred full name",
-      "type": ["string", "null"]
-    },
-    "other_names": {
-      "description": "Alternate or former names",
-      "type": "array",
-      "items": {
-        "$ref": "other_name.json#"
-      }
-    },
-    "identifiers": {
-      "description": "Issued identifiers",
-      "type": "array",
-      "items": {
-        "$ref": "identifier.json#"
-      }
     },
     "family_name": {
       "description": "One or more family names",
@@ -91,6 +76,12 @@
       "description": "A national identity",
       "type": ["string", "null"]
     },
+    "residential_address": {
+      "$ref": "address.json"
+    },
+    "postal_address": {
+      "$ref": "address.json"
+    },
     "contact_details": {
       "description": "Means of contacting the person",
       "type": "array",
@@ -98,35 +89,11 @@
         "$ref": "contact_detail.json#"
       }
     },
-    "links": {
-      "description": "URLs to documents about the person",
-      "type": "array",
-      "items": {
-        "$ref": "link.json#"
-      }
-    },
     "memberships": {
       "description": "The person's memberships",
       "type": "array",
       "items": {
         "$ref": "membership.json#"
-      }
-    },
-    "created_at": {
-      "description": "The time at which the resource was created",
-      "type": ["string", "null"],
-      "format": "date-time"
-    },
-    "updated_at": {
-      "description": "The time at which the resource was last modified",
-      "type": ["string", "null"],
-      "format": "date-time"
-    },
-    "sources": {
-      "description": "URLs to documents from which the resource is derived",
-      "type": "array",
-      "items": {
-        "$ref": "link.json#"
       }
     }
   }
