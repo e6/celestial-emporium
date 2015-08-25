@@ -86,13 +86,13 @@
     "identifiers": {
       "type": "array",
       "items": {
-        "$ref": "identifier.json"
+        "$ref": "identifier.json#"
       }
     },
     "industry_codes": {
       "type": "array",
       "items": {
-        "$ref": "industry_code.json"
+        "$ref": "industry_code.json#"
       }
     },
     "previous_names": {

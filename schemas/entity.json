@@ -22,7 +22,7 @@
           ]
         },
         "entity_properties": {
-          "$ref": "person.json"
+          "$ref": "person.json#"
         }
       }
     },
@@ -34,7 +34,7 @@
           ]
         },
         "entity_properties": {
-          "$ref": "organisation.json"
+          "$ref": "organization.json#"
         }
       }
     },
